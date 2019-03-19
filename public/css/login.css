@@ -1,0 +1,71 @@
+/*
+ css
+*/
+html,
+body {
+  background: #475d62 url(../img/LakeAnnetteDarkSky-JeffBartlett.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#help-text1 {
+  display: none;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+#ht1 {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+#help-text2 {
+  display: none;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+#ht2 {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.features-boxed {
+  color: #313437;
+  background-color: #3d779400;
+}
+
+@media (max-width:767px) {
+  .features-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-boxed .features {
+  padding: 50px 0;
+
+}
+
+.features-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #1e2833;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #08305c;
+}
+
+.btn-primary:hover {
+  background: #214a80;
+}
+
+.forgot {
+  color: #214a80;
+}

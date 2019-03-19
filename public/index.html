@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Database Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet">
+    </link>
+    <link rel="stylesheet" href="fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/login.css" </head> <body>
+    <div class="pulse animated .index-page">
+        <div class="features-boxed">
+            <div class="container">
+                <div class="row justify-content-center features">
+                    <div class="col-sm-6 col-md-5 col-lg-4 item" style="width: 320px;">
+                        <div class="box" style="height: 420px;">
+                            <form method="post">
+                                <div class="illustration">
+                                    <h3>Log In</h3><i class="fas fa-sign-in-alt" style="width: 32px;height: 32px;"></i>
+                                </div>
+                                <div class="form-group"><input class="form-control" id="username" type="text" name="username"
+                                        placeholder="Username" required></div>
+                                <div class="form-group"><input class="form-control" id="password" type="password" name="password"
+                                        placeholder="Password" required></div>
+                                <div class="form-group" id="help-text1"><small class="form-text text-center text-muted"
+                                        id="ht1"></small></div>
+                                <div class="form-group"><button class="btn btn-primary btn-block" id="login" type="submit">Log
+                                        In</button></div>
+                                <a href="#" class="forgot">Forgot your username or password?</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5 col-lg-4 item" style="width: 320px;">
+                        <div class="box" style="height: 420px;">
+                            <div class="illustration">
+                                <h3>Sign Up</h3><i class="fas fa-user-plus" style="width: 32px;height: 32px;"></i>
+                            </div>
+                            <form method="post">
+                                <div class="form-group"><input class="form-control" id="newusername" type="text" name="newusername"
+                                        placeholder="Username" minlength=3 maxlength=20 required></div>
+                                <div class="form-group"><input class="form-control" id="newaddress" type="text" name="newaddress"
+                                        placeholder="Address" required></div>
+                                <div class="form-group"><input class="form-control" id="newpassword" type="password"
+                                        name="newpassword" placeholder="Password" required minlength=4></div>
+                                <div class="form-group"><input class="form-control" id="newpasswordrepeat" type="password"
+                                        name="newpassword-repeat" placeholder="Password (repeat)" required minlength=4></div>
+                                <div class="form-group" id="help-text2"><small class="form-text text-center text-muted"
+                                        id="ht2"></small></div>
+                                <div class="form-group"><button class="btn btn-primary btn-block" id="signup" type="submit">Sign
+                                        Up</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    </body>
+
+</html>
